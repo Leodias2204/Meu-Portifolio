@@ -375,6 +375,8 @@ div#conteudo-footer form input[type="submit"]:hover {
         font-size: 45px;
         font-weight: 800;
         text-transform: uppercase;
+        text-align: justify;
+        margin-top: 500px;
     }
     section#inicio h1 span {
         color: var(--primary);
