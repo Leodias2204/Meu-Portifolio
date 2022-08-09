@@ -21,7 +21,7 @@ html {
 }
 body{
     background: var(--background);
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 header{
     max-width: var(--container);
@@ -40,7 +40,7 @@ header ul li:not(:first-child){
 }
 header h1{
     font-size: 50px;
-    font-family: Lato,sans-serif;
+    font-family: 'Raleway',sans-serif;
     color: #4387D8;
     margin: 2% 0;
 }
@@ -100,8 +100,10 @@ section#formacao {
 
 #formacao h2 {
     margin-left: 24px;
-    font-family: "Lato", sans-serif;
+    font-family:   'Raleway', sans-serif;
     font-size: 48px;
+    width: 100%;
+    text-align: center;
 }
 section#formacao div.conteudo-formacao {
     max-width: var(--container);
@@ -113,7 +115,7 @@ section#formacao div.conteudo-formacao {
 
 div.conteudo-formacao li.formacao-item {
     display: flex;
-    font-family: "Lato";
+    font-family: 'Raleway';
     margin-left: 15px;
     justify-content: center;
 }
@@ -235,7 +237,7 @@ article.publicacao div h3 {
     color: var(--title);
 }
 article.publicacao div p {
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 16px;
     color: var(--text);
 
