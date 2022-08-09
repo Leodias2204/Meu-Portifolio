@@ -99,9 +99,9 @@ section#formacao {
 }
 
 #formacao h2 {
-    margin-left: 100px;
+    margin-left: 24px;
     font-family: "Lato", sans-serif;
-    font-size: 36px;
+    font-size: 48px;
 }
 section#formacao div.conteudo-formacao {
     max-width: var(--container);
@@ -377,6 +377,11 @@ div#conteudo-footer form input[type="submit"]:hover {
     section#inicio h1 span {
         color: var(--primary);
         display: block;
+    }
+    #formacao h2 {
+        margin-left: 20px;
+        font-family: "Lato", sans-serif;
+        font-size: 36px;
     }
     section#habilidades {
         background-color: var(--primary);
