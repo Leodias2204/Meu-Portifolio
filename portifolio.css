@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway&family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway:ital,wght@0,400;1,300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 :root {
-    --background: #e5eaef;
+    --background: #dbdae0;
     --primary: #4387D8;
     --secondary: #315e93;
     --tertiary: #fbfcfe;
@@ -62,9 +62,9 @@ ul#links a:hover{
 }
 ul#redes img {
     display: block;
-    ;
-    
+    padding-left: 5px;
 }
+
 section#inicio {
     max-width: var(--container);
     margin: 0 auto;
@@ -101,7 +101,7 @@ section#formacao {
 h2 {
     margin-left: 15px;
     font-family: "Lato", sans-serif;
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
 }
 section#formacao div.conteudo-formacao {
@@ -268,6 +268,7 @@ div#conteudo-footer div#titulo-footer h2 {
 div#conteudo-footer div#titulo-footer p {
     font-size: 24px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 div#conteudo-footer form {
     max-width: 592px;
